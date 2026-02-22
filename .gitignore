@@ -1,0 +1,45 @@
+# Python virtual environments
+venv/
+python/venv/
+__pycache__/
+*.pyc
+.env
+
+# Node dependencies
+node_modules/
+.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# Build / Next.js
+/.next/
+/out/
+/build
+
+# Testing
+/coverage
+
+# Misc
+.DS_Store
+*.pem
+.pdfs  
+
+# Logsls 
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# IDEs
+.vscode
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
